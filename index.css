@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDDADA;
+}
+#btn{
+    width: 100px;
+    height: 30px;
+    background-color:aquamarine;
+    border-radius: 10px;
+    box-shadow:  2px 2px 5px;
+}
+.main button:hover{
+    box-shadow: gray 10px 2px 50px;
+}
+.form{
+    width: 300px;
+    height: 400px;
+    background-color: #C3F5EC;
+    display: none;
+}
+.form2{
+    width: 300px;
+    height: 400px;
+    background-color: #C3F5EC;
+    animation-name: formAnimation;
+    animation-duration: 0.5s;
+}
+@keyframes formAnimation {
+    0%{
+        width: 0px;
+        height: 0px;
+    }
+    100%{
+        width: 300px;
+        height: 400px;
+    }
+    
+}
+.form-1 button{
+    border: none;
+    background-color: #C3F5EC;
+    width: 24px;
+    height: 18px;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-right: 6px;
+}
+.form-1{
+    width: 100%;
+    height: 10px;
+    display: flex;
+    justify-content: end;
+    background-color: #C3F5EC;
+}
+.form-main{
+    width: 100%;
+    height: 380px;
+}
+.form-main-1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-main-l{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.form-main-i{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form-main-i input{
+    border: none;
+    border-bottom: solid 1px;
+    background-color: #C3F5EC;
+}
+.form-btn{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
